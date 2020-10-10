@@ -1,0 +1,22 @@
+{
+  "name": "svelte-parcel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "parcel-plugin-svelte": "^4.0.6",
+    "sass": "^1.27.0"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "svelte": "^3.29.0"
+  }
+}
